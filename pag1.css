@@ -1,52 +1,139 @@
+@font-face {
+    font-family: fonte;
+    src: url(fonte.ttf);
 }
-h1{
-	color: #f7981e;
-	text-align: center;
+*{
+    font-family: 'fonte';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: orange;
+}
+
+body {
+    font-size: 100%;
+    background-color: #efb88655;
+    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    background-color: #5382a17c;
 }
 .menu{
-margin: 0;
-padding: 0;
-width: auto;
-height: 30%;
+    display: flex;
+    gap: 32px;
 }
-.menu ul{
-list-style: none;
-}
-.menu li{
-display: inline;
-float: left;
-padding: 0;
-margin: 0;
-width: 24.8%;
-border-left: #f7981e thin solid;
-}
-.menu a{
-display: block;
-text-decoration: none;
-padding: 10px;
-background-color: white;
-color: #f7981e;
-text-align: center;
-font-family:Arial, Helvetica, sans-serif;
-font-size: 20px;
-font-weight: bold;
-}
-.menu :hover{
-text-decoration: none;
-color: #5382a1;
-}
-.menu li.btnesquerdo{
-border: none;}
 
-body{
-    color:#f7981e;
-    justify-content: center;
-}  
-img{
-	width: 30%;
-	height: auto;
-	alignment-adjust: center;
+.cabecalho-menu-item{
+    color: #5382a1;
+    font-size: 18px;
 }
+.cabecalho-menu-item:hover{
+    color: orange;
+}
+
+.conteudo{
+    margin-bottom: 2%;
+    border-top: 0.4px solid bisque ;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-weight: 300;
+    font-size: 80px;
+    color: #5382a1;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-size: 40px;
+    color: orange;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: orange;
+    color: #5382a1;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    color: orange;
+    border-top: 0.4px solid orange;
+    padding-top: 48px;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-texto{
+    color: orange;
+    font-size: 18px;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid bisque;
+    background-color: #5382a17c;
+}
+
+.rodape-imagem{
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 23px;
+}
+
+.formulario-titulo{
+    color: orange;
+    font-size: 60px;
+}
+
 fieldset{
-	color: #f7981e;
+    border: none;
+}
+
+.formulario-botao{
+    background-color: orange;
+    color: #5382a1;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
 }
