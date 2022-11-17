@@ -2,51 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="pag1.css" media="screen">
-    <title>Cadastre-se</title>
+    <link rel="stylesheet" type="text/css" href="pag1.css" media="screen" /> 
+    <link rel="icon" href="logo.png">
+    <title>Sobre</title>
 </head>
-
 <body>
-<nav>
-	<ul class="menu">
-	<li class="btnesquerdo"><a href="pag1.html">Início</a></li>
-	<li><a href="pag1.html">Sobre</a></li>
-	<li><a href="pag2.html">Cadastre-se</a></li>
-	<li><a href="../posicionamento/p6.html">Galeria de Imagens</a></li>
-</ul>
-	</nav>
-<form action="" method="POST" id="meuform">
+    <header class="cabecalho">
+        <img class="logo" src="logo.png" alt="Logo Java">
+        <nav class="menu">
+            <a class="cabecalho-menu-item" href="pag1.html">Início</a>
+            <a class="cabecalho-menu-item" href="pag2.html">Sobre</a>
+            <a class="cabecalho-menu-item">Galeria de Imagens</a>
+            <a class="cabecalho-menu-item" href="pag4.html">Cadastre-se</a>
+        </nav>
+    </header>
+    <main class="conteudo2">
+        <section class="conteudo2-principal">
+            <div class="conteudo2-principal-escrita">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui vivamus arcu felis bibendum ut tristique. </p>
+            </div>
 
-    <fieldset form="Contato">
-        <legend><strong>Cadastro</strong></legend>
-        
-        <div><label for="assuntoselect">Assunto:</label>
-            <select name="assunto" id="assuntoselect">
-            <option value="Selecione o assunto">Selecione o assunto</option>
-            <option value="Suporte">Suporte</option>></option>
-            <option value="Sugestão">Sugestão</option>
-            <option value="Reclamação">Reclamação</option></select>
-            </div> <br>
+        </section>
 
-        <div><label for="nome">Nome Completo:</label> <br>
-        <input type="text" name="nome" id="nome" required placeholder="Seu nome">
-        </div> <br>
-
-        <div><label for="email">E-mail:</label> <br>
-        <input type="email" name="email" id="email" required autocomplete="email" placeholder="email@seudominio.com"> 
-        </div> <br>
-
-        <div><label for="mensagem">Mensagem</label> <br>
-        <textarea name="mensagem" id="mensagem" maxlength="100" rows="5" cols="35" placeholder="Digite sua mensagem" style="resize:none"></textarea></div> <br>
-        
-
-        <div> <input type="checkbox" name="subscribe" id="subscribe">
-        <label for="subscribe">Aceito receber novidades por e-mail</label> 
-        </div> <br>
-        
-
-            <button type="submit" form="meuform">Enviar</button>
-</form>    
+    </main>
 </body>
 </html>
