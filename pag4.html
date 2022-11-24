@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,14 +13,14 @@
     <nav class="menu">
         <a class="cabecalho-menu-item" href="pag1.html">Início</a>
         <a class="cabecalho-menu-item" href="pag2.html">Sobre</a>
-        <a class="cabecalho-menu-item">Galeria de Imagens</a>
+        <a class="cabecalho-menu-item" href="pag3.html">Galeria de Imagens</a>
         <a class="cabecalho-menu-item" href="pag4.html">Cadastre-se</a>
     </nav>
 </header>
 <br>
 <form action="" method="POST" class="formulario">
 
-    <fieldset form="Contato">
+    <fieldset form="Contato" class="formulario-fieldset">
         <legend class="formulario-titulo"><strong>Cadastro</strong></legend>
         <br>
         
@@ -39,11 +39,18 @@
         <div><label for="email">E-mail:</label> <br>
         <input type="email" name="email" id="email" required autocomplete="email" placeholder="email@seudominio.com"> 
         </div> <br>
+        
+        <div><label for="telefone">Telefone:</label> <br>
+        <input type="tel" name="telefone" id="telefone" required autocomplete="telefone" placeholder="(XX)XXXX-XXXX"> 
+        </div> <br>
 
-        <div><label for="mensagem">Mensagem</label> <br>
+        <div><label for="mensagem">Mensagem:</label> <br>
         <textarea name="mensagem" id="mensagem" maxlength="100" rows="5" cols="35" placeholder="Digite sua mensagem" style="resize:none"></textarea></div> <br>
         
-
+		<div><label for="senha">Senha:</label> <br>
+        <input type="password" name="senha" id="senha" required autocomplete="telefone" placeholder=""> 
+        </div> <br>
+        
         <div> <input type="checkbox" name="subscribe" id="subscribe">
         <label for="subscribe">Aceito receber novidades por e-mail</label> 
         </div> <br>
