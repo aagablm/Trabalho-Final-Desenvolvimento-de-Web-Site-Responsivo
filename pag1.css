@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: fonte;
     src: url(fonte.ttf);
@@ -136,4 +138,49 @@ fieldset{
     height: 30px;
     border: none;
     border-radius: 20px;
+}
+.conteudo2{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-top: 0.4px solid bisque ;
+}
+.conteudo2-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo2-principal-texto{
+    margin-top: 5%;
+    margin: 2%;
+}
+
+.conteudo2-secundario{
+    margin: 2%;
+}
+
+.conteudo2-secundario-texto{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.conteudo2-secundario-subtitulo{
+    font-size: 40px;
+    color: #5382a1;
+}
+
+.conteudo2-secundario-tabela{
+    margin: 2%;
+    margin-top: 5%;
+    width: 40%;
+    height: 20%;
+}
+
+
+td,th,tr{
+    margin: 2%;
+    padding: 1%;
+    text-align: left;
+ 
 }
